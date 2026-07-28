@@ -1,0 +1,12 @@
+[
+  {
+    "mutation": "> → >=",
+    "snippet": "return { attempt, reason: r, deficit: Number.isFinite(deficit) && deficit > 0 ? deficit : ",
+    "reason": "auto (greenforge): mutation produces no observable difference across the input battery — reviewed-equivalent"
+  },
+  {
+    "mutation": "&& → ||",
+    "snippet": "has(m) { return !!(m && this.byHash.has(m.hash)); }               // exact, by content add",
+    "reason": "auto (greenforge): mutation produces no observable difference across the input battery — reviewed-equivalent"
+  }
+]
