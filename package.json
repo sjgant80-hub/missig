@@ -1,0 +1,12 @@
+{
+  "name": "missig",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "missig.mjs",
+  "description": "Miss-signature — foldsig's shadow. Records a fold that did NOT take (a rejected attempt), content-addressed with why it missed, so a loop learns from failure and never re-attempts a known-doomed fold.",
+  "author": "sjgant80-hub <sjgant80@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  }
+}
